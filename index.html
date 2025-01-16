@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi niño hermoso</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Fondo verde claro */
+        body {
+            background-color: #90EE90; 
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Contenedor general */
+        .container {
+            text-align: center;
+        }
+
+        /* Título principal */
+        .main-title {
+            font-size: 3rem;
+            font-weight: bold;
+            color: rgb(3, 3, 3);
+            margin-bottom: 40px;
+        }
+
+        /* Estilo de los botones */
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px; /* Espacio entre botones */
+        }
+
+        /* Contenedor de cada botón */
+        .button-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px; /* Espacio entre imagen y texto */
+        }
+
+        /* Estilo de las imágenes */
+        .button-image {
+            width: 100px; /* Tamaño de las imágenes */
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%; /* Hace las imágenes redondas */
+        }
+
+        /* Texto al lado de las imágenes */
+        .button-text {
+            font-size: 1.6rem;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Título centrado -->
+        <h1 class="main-title">Mi niño hermoso</h1>
+        
+        <!-- Botones centrados con imágenes pequeñas -->
+        <div class="buttons">
+            <div class="button-item">
+                <a href="te-amo.html">
+                    <img src="te-amo.jpg" alt="Te amo" class="button-image">
+                    <span class="button-text">Te amo, lee esto</span>
+                </a>
+            </div>
+            <div class="button-item">
+                <a href="disculpas.html">
+                    <img src="disculpas.jpg" alt="Disculpas" class="button-image">
+                    <span class="button-text">Disculpas para mi pollo</span>
+                </a>
+            </div>
+            <div class="button-item">
+                <a href="importante.html">
+                    <img src="importante.jpg" alt="Importante" class="button-image">
+                    <span class="button-text">Lo importante para mí</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

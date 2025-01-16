@@ -1,0 +1,57 @@
+/* Fondo verde claro */
+body {
+    background-color: #90EE90; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Contenedor general */
+.container {
+    text-align: center;
+}
+
+/* Título principal */
+.main-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 40px;
+}
+
+/* Estilo de los botones */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Espacio entre botones */
+}
+
+/* Contenedor de cada botón */
+.button-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Espacio entre imagen y texto */
+}
+
+/* Estilo de las imágenes */
+.button-image {
+    width: 100px; /* Tamaño de las imágenes */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Hace las imágenes redondas */
+}
+
+/* Texto al lado de las imágenes */
+.button-text {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+   
+    
+}
